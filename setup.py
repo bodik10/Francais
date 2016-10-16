@@ -9,7 +9,7 @@ buildOptions = dict(
         includes = [],
         include_files = [],
         excludes = [],
-        packages = ["tkinter.filedialog"],
+        packages = ["tkinter.filedialog", "subprocess"], # 'subprocess' for correct working of 'os.popen'
         path = sys.path)
 
 setup(
